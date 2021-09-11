@@ -1,0 +1,37 @@
+li{
+    list-style: none;
+}
+img{
+    display: block;
+    padding: 0;
+}
+.container{
+    display: flex;
+    width: 1200px;
+    height: 600px;
+    margin: auto auto;
+    background: gray;
+    padding: 20px;
+
+}
+.slider{
+    width: 800px;
+    margin: 0 auto;
+    transition: all ease 500ms;
+    align-self: center;
+}
+.btn{
+    font-family: sans-serif;
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+    align-self: center;
+    background: yellow;
+    transition: all ease 1s;
+}
+.btn:hover {
+    background: aqua;
+    font-family: Helvetica;
+}
+
+
