@@ -1,7 +1,7 @@
 const slider = document.querySelector('.slider');
 let counter = 1;
 function switcher (){
-    slider.innerHTML = `<img src="/pictures/Joker-${counter}.jpg" alt="Joker-${counter}">`;
+    slider.innerHTML = `<img src="./pictures/Joker-${counter}.jpg" alt="Joker-${counter}">`;
 }
 const prevBtn = document.querySelector('.prev');
 prevBtn.addEventListener('click' , () => {
